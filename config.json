@@ -7,10 +7,26 @@
 	],
 	"features": [
 		{
-			"name": "KG HBS EPS",
-			"streamLabel": "pages-location-stream",
+			"name": "KG HBS EPS Locations",
+			"streamLabel": "pages-locations",
 			"handlebarsTemplateEntityPageSet": {
-				"template": "content",
+				"template": "location",
+				"urlTemplate": "url"
+			}
+		},
+		{
+			"name": "KG HBS EPS Cities",
+			"streamLabel": "pages-cities",
+			"handlebarsTemplateEntityPageSet": {
+				"template": "city",
+				"urlTemplate": "url"
+			}
+		},
+		{
+			"name": "KG HBS EPS States",
+			"streamLabel": "pages-states",
+			"handlebarsTemplateEntityPageSet": {
+				"template": "state",
 				"urlTemplate": "url"
 			}
 		}
