@@ -17,7 +17,18 @@
 	],
 	"ci_config": {
 		"base_image_tag": "node-12.18",
-		"output_directories": [ "desktop", "templates" ],
+		"artifactStructure": {
+			"assets": [
+				{
+					"root": "desktop"
+				}
+			],
+			"hbsTemplates": [
+				{ 
+					"root": "templates"
+				}
+			]
+		},
 		"build_setup_cmd": "npm install",
 		"build_cmd": "npm run build",
 		"serve_setup_cmd": "echo setup",
