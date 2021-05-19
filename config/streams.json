@@ -1,0 +1,12 @@
+{
+    "features": [
+		{
+			"name": "KG HBS EPS",
+			"streamLabel": "pages-locations",
+			"handlebarsTemplateEntityPageSet": {
+				"template": "content",
+				"urlTemplate": "url"
+			}
+		}
+	]
+}
