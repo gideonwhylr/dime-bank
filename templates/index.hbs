@@ -44,10 +44,9 @@
                 <ul class="state-list list-disc">
                     {{#each c_children}}
                         <li><a href="/{{ this.c_slug }}">{{ this.name }}</a></li>
-                        Cities:
                         {{#each c_children}}
                             <ul class="city-list list-disc">
-                                <li><a href="/{{this.c_slug}}">{{this.name}}</a></li>
+                                <li><a href="/{{this.c_slug}}">--- {{this.name}}</a></li>
                             </ul>
                         {{/each}}
                     {{/each}}
