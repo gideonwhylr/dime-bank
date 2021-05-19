@@ -32,7 +32,7 @@
 
 
         <div class='title bg-blue-900 pt-6 pb-6 border-b-8 border-green-400'> 
-          <h1 class='text-5xl  font-extralight text-white ml-6'> Welcome to the Beautiful State of {{name}} </h1>
+          <h1 class='text-5xl  font-extralight text-white ml-6'> Welcome to {{name}} </h1>
         </div>
         <div class="container mx-auto px-32">
           <div class='mt-6  flex'> 
@@ -40,7 +40,7 @@
               <h4 class='text-2xl font-bold mb-4'>We have locations in these cities</h4>
                 <ul class="children-list list-disc">
                     {{#each c_children}}
-                        <li><a href="/{{ this.c_slug }}">{{ this.name }}</a></li>
+                        <a href="/{{ this.c_slug }}">{{ this.name }}</a>
                     {{/each}}
                 </ul>
             </div>
