@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{name}} - {{c_parents.0.id}}</title>
+    <title>{{name}} - {{c_parents.[0].id}}</title>
     
   </head>
     <body>
@@ -32,7 +32,7 @@
 
 
         <div class='title bg-blue-900 pt-6 pb-6 border-b-8 border-green-400'> 
-          <h1 class='text-5xl  font-extralight text-white ml-6'> Welcome to {{name}}, <a href="/{{ c_parents.0.c_slug }}">{{ c_parents.0.id }}</a></h1>
+          <h1 class='text-5xl  font-extralight text-white ml-6'> Welcome to {{name}}, <a href="/{{ c_parents.[0].c_slug }}">{{ c_parents.[0].id }}</a></h1>
         </div>
         <div class="container mx-auto px-32">
           <div class='mt-6  flex'> 
