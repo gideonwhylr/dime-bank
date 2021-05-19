@@ -43,7 +43,11 @@
                 <p> {{address.city}}, {{address.region}} {{address.postalCode}}</p>
               </div>
             </div>
-
+            <div> 
+                {{#each c_parents}}
+                  <h3><a href="/{{ this.c_slug }}">View Other Locations in {{ this.name }}</a></h3>
+                {{/each}}
+            </div>
 
     </body> 
 </html>
