@@ -4,7 +4,7 @@
 			"name": "KG HBS EPS",
 			"streamLabel": "pages-locations",
 			"handlebarsTemplateEntityPageSet": {
-				"template": "content",
+				"htmlTemplate": "content",
 				"urlTemplate": "url"
 			}
 		}
