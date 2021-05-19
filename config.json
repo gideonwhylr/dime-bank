@@ -7,6 +7,14 @@
 	],
 	"features": [
 		{
+			"name": "KG HBS EPS Home Page",
+			"streamLabel": "pages-index",
+			"handlebarsTemplateEntityPageSet": {
+				"template": "index",
+				"urlTemplate": "index-url"
+			}
+		},
+		{
 			"name": "KG HBS EPS Locations",
 			"streamLabel": "pages-locations",
 			"handlebarsTemplateEntityPageSet": {
