@@ -42,12 +42,41 @@
                 <p> {{address.line1}} </p>
                 <p> {{address.city}}, {{address.region}} {{address.postalCode}}</p>
               </div>
-            </div>
-            <div> 
-                {{#each c_parents}}
+              <p> {{phone}} </p>
+              <p> {{#each c_parents}}
                   <h3><a href="/{{ this.c_slug }}">View Other Locations in {{ this.name }}</a></h3>
-                {{/each}}
+                  {{/each}}
+              </p>
             </div>
+
+            <div class='branch-hours pr-32'>
+              <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
+              <div class='hours-list'>
+                {{#each hours}}
+                  <p>{{@key}}
+                  {{#each this}}
+                    {{#each this}}
+                      {{this.start}}-{{this.end}}
+                    {{/each}}
+                  {{/each}} 
+                  </p> 
+                {{/each}}
+              </div>
+            </div>
+
+            <div class='branch-services pr-32'>
+              <h4 class='text-2xl font-bold mb-4'>Services</h4>
+              <ul class="services-list list-disc">
+                {{#each services}}
+                  <li>{{this}}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </div>
+
 
     </body> 
 </html>
+
+
