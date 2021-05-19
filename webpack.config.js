@@ -7,12 +7,6 @@ module.exports = {
         index: './src/index.js',
 
       }, 
-    plugins: [
-        new HtmlWebpackPlugin({
-          template: "./src/template.html",
-        }),
-        new CleanWebpackPlugin()
-    ],
     output: {
         filename: 'index.bundle.js',
         path: path.resolve(__dirname, 'desktop'),
