@@ -34,7 +34,8 @@
         <ol class="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
           <li class="px-2"><a href="/index" class="no-underline text-indigo">Home</a></li>
           <li>/</li>
-          <li class="px-2"><a href="/{{c_parents.[0].c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].c_parents.[0].id}}</a></li>
+          <li class="px-2"><a href="/
+                          {{#each c_children}}{{#each c_children}}{{this.c_slug}}{{/each}}{{/each}}" class="no-underline text-indigo">{{#each c_children}}{{#each c_children}}{{this.id}}{{/each}}{{/each}}</a></li>
           <li>/</li>
           <li class="px-2"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
           <li>/</li>

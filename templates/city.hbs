@@ -30,6 +30,16 @@
             </nav>
           </div>
 
+        <nav class="container">
+          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
+            <li class="px-2"><a href="/index" class="no-underline text-indigo">Home</a></li>
+            <li>/</li>
+            <li class="px-2"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].id}}</a></li>
+            <li>/</li>
+            <li class="px-2">{{name}}</li>
+            <li>/</li>
+          </ol>
+        </nav>
 
         <div class='title bg-blue-900 pt-6 pb-6 border-b-8 border-green-400'> 
           <h1 class='text-5xl  font-extralight text-white ml-6'> Welcome to {{name}}, <a href="/{{ c_parents.[0].c_slug }}">{{ c_parents.[0].id }}</a></h1>
