@@ -22,6 +22,11 @@
     list-style-type: none;
 }
 
+.city-children-list.list-disc {
+    margin-left: 50px;
+    list-style-type: none;
+}
+
 .mt-6 {
     margin-bottom: 1.5rem;
 }
