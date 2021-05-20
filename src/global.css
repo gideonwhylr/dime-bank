@@ -19,6 +19,7 @@
 /* Index CSS */
 .index-city-list.list-disc {
     margin-left: 50px;
+    list-style-type: none;
 }
 
 .mt-6 {
