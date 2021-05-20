@@ -22,9 +22,19 @@
     list-style-type: none;
 }
 
+.branch-services-list.list-disc {
+    margin-left: 3rem;
+    /* list-style-type: none; */
+}
+
 .city-children-list.list-disc {
-    margin-left: 50px;
-    list-style-type: none;
+    margin-left: 3rem;
+    /* list-style-type: none; */
+}
+
+.state-children-list.list-disc {
+    margin-left: 3rem;
+    /* list-style-type: none; */
 }
 
 .mt-6 {
