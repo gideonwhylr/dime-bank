@@ -4,3 +4,10 @@
 
 
 
+.index-city-list ul , .index-city-list li {
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: #003a70;
+}
