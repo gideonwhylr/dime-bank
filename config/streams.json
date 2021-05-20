@@ -28,7 +28,8 @@
 			"name": "KG HBS EPS States",
 			"streamId": "pages-states",
 			"handlebarsTemplateEntityPageSet": {
-				"htmlTemplate": "state"
+				"htmlTemplate": "state",
+                "urlTemplate": "url"
             }
         }    
     ]
