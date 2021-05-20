@@ -5,7 +5,7 @@
 			"streamId": "pages-index",
 			"handlebarsTemplateEntityPageSet": {
 				"htmlTemplate": "index",
-				"urlTemplate": "index-url"
+				"urlTemplate": "url"
 			}
 		},
 		{
