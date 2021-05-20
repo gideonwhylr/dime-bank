@@ -4,8 +4,8 @@
 
 
 
-.index-city-list ul , .index-city-list li {
-    margin-left: 10px;
+ul.index-city-list.list-disc {
+    margin-left: 50px;
 }
 
 .footer {
