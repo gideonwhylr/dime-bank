@@ -67,6 +67,41 @@
           });
     </script>
 
+    <script>
+        var url = `https://liveapi-cached.yext.com/v2/accounts/me/answers/autocomplete`;
+        url += `?v=20190101`;
+        url += `&api_key=a381bbbc78e07a078cabe52f321c62eb`;
+        url += `&sessionTrackingEnabled=false`;
+        url += `&experienceKey=dime_answers_experience_-_frontend_test`;
+        url += `&input=`;
+        url += `&version=PRODUCTION`;
+        url += `&locale=en`;
+
+        axios.get(url).then(function(response) {
+          // Get strings from response
+          const strings = response.data.response.results.map(function(r) {
+            return r.value;
+          });
+
+          // Set up Typed
+              var options = {
+                strings,
+                showCursor: true,
+                cursorChar: "|",
+                typeSpeed: 45,
+                backSpeed: 20,
+                smartBackspace: true,
+                loop: true,
+                startDelay: 500,
+                backDelay: 2000,
+                attr: "placeholder",
+              };
+
+              var typed = new Typed(".js-yext-query", options);
+            });
+
+    </script>
+
 
         <div class="container mx-auto px-32">
           <div class='mt-6  flex'> 
