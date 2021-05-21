@@ -12,13 +12,13 @@
 
       <nav class="breadcrumb-container">
         <ol class="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
-          <li class="px-2"><a href="/" class="no-underline text-indigo">Home</a></li>
+          <li class="px-2 hover:underline"><a href="/" class="no-underline text-indigo">Home</a></li>
           <li>/</li>
           {{#each c_parents}}{{#each c_parents}}
-            <li class="px-2"><a href="/{{this.c_slug}}" class="no-underline text-indigo">{{this.id}}</a></li>
+            <li class="px-2 hover:underline"><a href="/{{this.c_slug}}" class="no-underline text-indigo">{{this.id}}</a></li>
           {{/each}}{{/each}}
           <li>/</li>
-          <li class="px-2"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
+          <li class="px-2 hover:underline"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
           <li>/</li>
           <li class="px-2">{{name}} - {{geomodifier}}</li>
         </ol>
@@ -37,7 +37,7 @@
               </div>
               <p> {{phone}} </p>
               <p> {{#each c_parents}}
-                  <h3><a href="/{{ this.c_slug }}">View Other Locations in {{ this.name }}</a></h3>
+                  <h3 class='hover:underline'><a href="/{{ this.c_slug }}">View Other Locations in {{ this.name }}</a></h3>
                   {{/each}}
               </p>
             </div>
