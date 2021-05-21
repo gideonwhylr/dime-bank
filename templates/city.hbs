@@ -11,7 +11,7 @@
         {{>header}}
 
       <nav class="breadcrumb-container">
-          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
+          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-50 text-grey">
             <li class="px-2 hover:underline"><a href="/" class="no-underline text-indigo">Home</a></li>
             <li>/</li>
             <li class="px-2 hover:underline"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].id}}</a></li>
@@ -29,7 +29,7 @@
               <h4 class='text-2xl font-bold mb-4'>Other Branches in this City</h4>
                 <ul class="city-children-list list-disc">
                     {{#each c_children}}
-                        <li class='hover:underline'><a href="/{{ this.c_slug }}">{{ this.name }} - {{this.address.line1}}, {{this.address.region}} {{this.address.postalCode}}</a></li>
+                        <li class='hover:underline text-green-400'><a href="/{{ this.c_slug }}">{{ this.name }} - {{this.address.line1}}, {{this.address.region}} {{this.address.postalCode}}</a></li>
                     {{/each}}
                 </ul>
             </div>

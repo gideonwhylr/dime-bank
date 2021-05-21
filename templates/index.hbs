@@ -11,7 +11,7 @@
         {{>header}}
 
       <nav class="breadcrumb-container">
-          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
+          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-50 text-grey">
           </ol>
       </nav>
 
@@ -24,7 +24,7 @@
               <h4 class='text-2xl font-bold mb-4'>We're Located in the Following States</h4>
               <div class="grid grid-flow-row auto-rows-max">
                     {{#each c_children}}
-                        <div class='hover:underline'><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
+                        <div class='hover:underline text-green-400'><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
                     {{/each}}
             </div>
           </div>
