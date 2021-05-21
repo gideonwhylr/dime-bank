@@ -25,11 +25,6 @@
               <div class="grid grid-flow-row auto-rows-max">
                     {{#each c_children}}
                         <div><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
-                        {{#each c_children}}
-                            <ul class="index-city-list list-disc">
-                                <li><a href="/{{this.c_slug}}">{{this.name}}</a></li>
-                            </ul>
-                        {{/each}}
                     {{/each}}
             </div>
           </div>
