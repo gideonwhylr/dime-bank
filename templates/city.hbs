@@ -29,7 +29,7 @@
               <h4 class='text-2xl font-bold mb-4'>Other Branches in this City</h4>
                 <div class="h-64 grid grid-rows-6 grid-flow-col gap-4">
                     {{#each c_children}}
-                        <li class='text-green-500 hover:underline hover:text-green-700'><a href="/{{ this.c_slug }}">{{ this.name }} - {{this.address.line1}}, {{this.address.region}} {{this.address.postalCode}}</a></li>
+                        <div class='text-green-500 hover:underline hover:text-green-700'><a href="/{{ this.c_slug }}">{{ this.name }} - {{this.address.line1}} {{this.address.postalCode}}</a></div>
                     {{/each}}
                 </div>
             </div>
