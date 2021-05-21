@@ -12,6 +12,12 @@ module.exports = {
         path: path.resolve(__dirname, 'desktop'),
         clean: true
     },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: "./src/template.html",
+      }),
+      new CleanWebpackPlugin()
+  ],
     module: {
         rules: [
           {
