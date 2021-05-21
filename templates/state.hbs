@@ -10,9 +10,9 @@
 
         {{>header}}
 
-      <nav class="breadcrumb-container">
-          <ol class="list-reset py-4 pl-4 rounded flex bg-grey-50 text-grey">
-            <li class="px-2 hover:underline text-green-400"><a href="/" class="no-underline text-indigo hover:underline"></a>Home</a></li>
+      <nav class="breadcrumb-container bg-gray-50">
+          <ol class="list-reset py-4 pl-4 rounded flex  text-grey">
+            <li class="px-2 hover:underline "><a href="/" class="no-underline text-indigo hover:underline"></a>Home</a></li>
             <li>/</li>
             <li class="px-2">{{id}}</li>
           </ol>
@@ -28,7 +28,7 @@
               <h4 class='text-2xl font-bold mb-4'>We have locations in these cities</h4>
                 <div class="h-64 grid grid-rows-6 grid-flow-col gap-4">
                     {{#each c_children}}
-                        <div class='hover:underline'><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
+                        <div class='text-green-500 hover:underline  hover:text-green-700'><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
                     {{/each}}
                 </div>
             </div>
