@@ -10,7 +10,7 @@ module.exports = {
       }, 
     output: {
         filename: 'index.bundle.js',
-        path: path.resolve(__dirname, 'desktop'),
+        path: path.resolve(__dirname, 'assets'),
         clean: true
     },
   //   plugins: [

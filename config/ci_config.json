@@ -2,7 +2,7 @@
     "artifactStructure": {
         "assets": [
             {
-                "root": "desktop"
+                "root": "assets"
             }
         ],
         "hbsTemplates": [
