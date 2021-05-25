@@ -7,6 +7,14 @@
 				"htmlTemplate": "content",
 				"urlTemplate": "url"
 			}
+		},
+    {
+			"name": "KG HBS EPS 2",
+			"streamId": "pages-cities",
+			"handlebarsTemplateEntityPageSet": {
+				"htmlTemplate": "content",
+				"urlTemplate": "url"
+			}
 		}
 	]
 }

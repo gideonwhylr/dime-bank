@@ -6,8 +6,9 @@
             }
         ],
         "hbsTemplates": [
-            { 
-                "root": "templates"
+            {
+                "root": "templates",
+                "pattern": "*.hbs"
             }
         ]
     },

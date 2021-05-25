@@ -3,17 +3,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{name}} - {{ geomodifier }} </title>
-    
+
   </head>
     <body>
         <script src="index.bundle.js"></script>
-        <h1> {{name}} - {{ geomodifier }}</h1>
-        <div> 
+        <h1> {{name}} - {{ description }}</h1>
+        <div>
           <div class='branch-details'>
             <h4>Branch Details</h4>
             <p>{{name}} </p>
-            <div> 
-              Address: 
+            <div>
+              Address:
               <p> {{address.line1}} </p>
               <p> {{address.city}}, {{address.region}} {{address.postalCode}}</p>
             </div>
@@ -29,8 +29,8 @@
                   {{#each this}}
                     {{this.start}}-{{this.end}}
                   {{/each}}
-                {{/each}} 
-                </p> 
+                {{/each}}
+                </p>
               {{/each}}
             </div>
           </div>
@@ -46,5 +46,5 @@
         </div>
 
 
-    </body> 
+    </body>
 </html>
