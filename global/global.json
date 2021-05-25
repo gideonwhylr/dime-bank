@@ -1,3 +1,25 @@
 {
-	"test": "GLOBAL STRING FROM GLOBAL.JSON!!!!!"
+	"test": "GLOBAL STRING FROM GLOBAL.JSON!!!!!",
+	"name": "Dime Community Bank",
+	"logo": "https://www.dime.com/sites/default/files/Post-Merger-Dime_Logo_rgb.png",
+	"primary_color": "#003a70",
+	"secondary_color": "#B5C428",
+	"headerContent": [
+		{
+			"linkText": "Business",
+			"linkUrl": "https://www.dime.com/business"
+		},
+		{
+			"linkText": "Commercial",
+			"linkUrl": "https://www.dime.com/commercial"
+		},
+		{
+			"linkText": "Wealth Management",
+			"linkUrl": "https://www.dime.com/wealth-management"
+		},
+		{
+			"linkText": "Personal",
+			"linkUrl": "https://www.dime.com/personal"
+		}
+	]
 }
