@@ -9,7 +9,15 @@
             { 
                 "root": "templates",
                 "pattern": "*.hbs"
-            }
+            },
+            { 
+                "root": "partials",
+                "pattern": "*.hbs"
+            },
+            { 
+                "root": "pages",
+                "pattern": "*.hbs"
+            } 
         ]
     },
     "base_image_tag": "node-12.18",
