@@ -1,7 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
 
 /* Header CSS */
 /* .header{
@@ -43,3 +41,10 @@
 .mt-6.text-s{
     color: white;
 }
+
+
+
+
+@tailwind utilities;
+
+
