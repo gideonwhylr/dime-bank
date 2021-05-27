@@ -3,10 +3,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dime Community Bank - Bayside </title>
-    
-  </head>
+    <script src="/index.bundle.js"></script>   </head>
     <body>
-        <script src="/index.bundle.js"></script> 
+        
 
       <div class= "header">
         <div class=" mx-auto  p-5">
@@ -66,18 +65,6 @@
             <div class='branch-hours pr-32'>
               <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
               <div class='hours-list'>
-                  <p>thursday
-                                        09:00-13:00
-                   
-                  </p> 
-                  <p>tuesday
-                                        09:00-13:00
-                   
-                  </p> 
-                  <p>wednesday
-                                        09:00-13:00
-                   
-                  </p> 
                   <p>friday
                                         09:00-13:00
                    
@@ -94,10 +81,22 @@
                    
                   </p> 
                   <p>saturday
-                      00:00-23:59
-                                     
+                                        00:00-23:59
+                   
                   </p> 
                   <p>sunday
+                   
+                  </p> 
+                  <p>thursday
+                                        09:00-13:00
+                   
+                  </p> 
+                  <p>tuesday
+                                        09:00-13:00
+                   
+                  </p> 
+                  <p>wednesday
+                                        09:00-13:00
                    
                   </p> 
               </div>
@@ -129,9 +128,13 @@
             </div>
             <div class="col-span-1">
               <div class="grid grid-cols-2 gap-4">
+                <img src="beacon-check.png">
                 <div class="text-indigo hover:font-semibold"><a href="https://www.dime.com/personal/checking/personal-checking">Consumer Checking</a></div>
+                <img src="beacon-check.png">
                 <div class="text-indigo hover:font-semibold"><a href="https://www.dime.com/business/savings/money-market">Business Money Market Accounts</a></div>
+                <img src="beacon-check.png">
                 <div class="text-indigo hover:font-semibold"><a href="https://www.dime.com/personal/money-market">Money Market Savings Accounts</a></div>
+                <img src="beacon-check.png">
                 <div class="text-indigo hover:font-semibold"><a href="https://www.dime.com/personal/certificate-of-deposit">Certificates of Deposit (CDs)</a></div>
              </div>
             </div>

@@ -3,10 +3,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>New York</title>
-    
+     <script src="/index.bundle.js"></script>     
   </head>
     <body>
-        <script src="/index.bundle.js"></script> 
+
 
         <div class= "header">
           <div class=" mx-auto  p-5">
