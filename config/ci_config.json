@@ -1,24 +1,11 @@
 {
-    "artifactStructure": {
-        "assets": [
-            {
-                "root": "desktop"
-            }
-        ],
-        "hbsTemplates": [
-            { 
-                "root": "templates",
-                "pattern": "*.hbs"
-            }
-        ]
-    },
     "base_image_tag": "node-12.18",
     "dependencies": {
         "installDepsCmd": "echo install",
         "requiredFiles": []
     },
     "buildArtifacts": {
-        "build_setup_cmd": "echo env",
+        "build_setup_cmd": "env",
         "build_cmd": "echo hi"
     },
     "livePreview": {
