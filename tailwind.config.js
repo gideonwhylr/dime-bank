@@ -1,7 +1,8 @@
 module.exports = {
     purge: [
-      './src/**/*.html', 
-      './src/**/*.hbs'
+      './partials/**/*.hbs', 
+      './pages/**/*.hbs',
+      './templates/**/*.hbs',
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
