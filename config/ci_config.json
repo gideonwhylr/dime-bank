@@ -7,8 +7,8 @@
         "requiredFiles": []
     },
     "buildArtifacts": {
-        "build_setup_cmd": "env",
-        "build_cmd": "echo hi"
+        "build_setup_cmd": "npm install",
+        "build_cmd": "npm run build"
     },
     "livePreview": {
         "serve_setup_cmd": "echo setup",
