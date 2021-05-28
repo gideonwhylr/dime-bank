@@ -8,7 +8,7 @@
     },
     "buildArtifacts": {
         "build_setup_cmd": "npm install",
-        "build_cmd": "npm run build"
+        "build_cmd": "env"
     },
     "livePreview": {
         "serve_setup_cmd": "echo setup",
