@@ -8,6 +8,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 console.log(process.env.LUC_ENV_VARIABLE);
+console.log("wassupppppppppppppppppppp");
 
 
 module.exports = {
