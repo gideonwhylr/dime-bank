@@ -19,13 +19,11 @@
       }
     </style>
 
-    <script src="https://assets.sitescdn.net/answers/v1/answers.min.js"></script>
 
     
   </head>
     <body>
         {{>navbar}}
-
         <div class='title bg-gray-50 pt-6 pb-6 border-b-8 border-green-400'> 
           <h1 class='text-9xl font-extralight text-blue-900  ml-6'> Welcome to New York's premier business bank.
           </h1>
@@ -39,32 +37,6 @@
           <div class="location-bias"></div>
         </div>
 
-        <script>
-          ANSWERS.init({
-            apiKey: "a381bbbc78e07a078cabe52f321c62eb",  //sample test experience
-            experienceKey: "dime_answers_experience_-_frontend_test",  //sample test experience
-            businessId: "3179813",  //sample test experience
-            experienceVersion: "PRODUCTION",
-            onReady: function () {
-              // init components
-              this.addComponent("SearchBar", {
-                container: ".search-bar"
-              });
-              this.addComponent("SpellCheck", {
-                container: ".spell-check"
-              });
-              this.addComponent("DirectAnswer", {
-                container: ".direct-answer"
-              });
-              this.addComponent("UniversalResults", {
-                container: ".universal-results"
-              });
-              this.addComponent("LocationBias", {
-                container: ".location-bias"
-              });
-            }
-          });
-    </script>
 
 
         <div class="container mx-auto px-32">
