@@ -9,14 +9,6 @@
 			}
 		},
 		{
-			"name": "KG HBS EPS Locations",
-			"streamId": "sites-locations",
-			"handlebarsTemplateEntityPageSet": {
-				"htmlTemplate": "location",
-				"urlTemplate": "url"
-			}
-		},
-		{
 			"name": "KG HBS EPS Cities",
 			"streamId": "sites-cities",
 			"handlebarsTemplateEntityPageSet": {
