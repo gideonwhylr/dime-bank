@@ -26,7 +26,7 @@
         "requiredFiles": []
     },
     "buildArtifacts": {
-        "build_setup_cmd": "npm install",
+        "build_setup_cmd": "npm install typescript -g && npm install",
         "build_cmd": "npm install && npm run build"
     },
     "livePreview": {
