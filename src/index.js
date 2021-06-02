@@ -1,8 +1,8 @@
 import './global.css';
 import Icon from './beacon-check.png';
-// import ANSWERS from '@yext/answers-search-ui';
-const ANSWERS = require('@yext/answers-search-ui');
-const TemplateBundle = require('@yext/answers-search-ui/dist/answerstemplates.compiled.min.js');
+import ANSWERS from '@yext/answers-search-ui';
+// const ANSWERS = require('@yext/answers-search-ui');
+// const TemplateBundle = require('@yext/answers-search-ui/dist/answerstemplates.compiled.min.js');
 
 ANSWERS.init({
     apiKey: "a381bbbc78e07a078cabe52f321c62eb",  //sample test experience
