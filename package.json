@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@yext/answers-search-ui": "^1.8.3",
     "autoprefixer": "^10.2.5",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.4",
@@ -26,7 +27,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@yext/answers-search-ui": "^1.8.3",
     "file-loader": "^6.2.0"
   }
 }
