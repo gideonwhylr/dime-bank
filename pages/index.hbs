@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{name}} - Home Page</title>
+    <title>{{global.name}} - Home Page</title>
 
 
      <!-- Answers CSS-->
@@ -65,19 +65,6 @@
           });
     </script>
 
-
-        <div >
-          <div > 
-            <div >
-              <h4 >We're Located in the Following States</h4>
-              <div >
-                    {{#each c_children}}
-                        <div ><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
-                    {{/each}}
-            </div>
-          </div>
-        </div>
-      </div>
     </body> 
 
 </html>
