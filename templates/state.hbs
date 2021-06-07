@@ -1,0 +1,52 @@
+---
+{
+    "stream": {
+        "$id": "sites-states-2",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "fields": [
+        "id",
+        "uid",
+        "name",
+        "c_slug",
+        "c_children.name",
+        "c_children.c_slug"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_state"
+        ]
+      }
+    },
+    "urlFormat": "{{c_slug}}-x.html"
+}
+---
+
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{name}}</title>
+
+    
+  </head>
+    <body>
+
+        <div> 
+          <h1> Welcome to {{name}} </h1>
+        </div>
+        <div>
+          <div> 
+            <div>
+              <h4>We have locations in these cities</h4>
+                <div>
+                    {{#each c_children}}
+                        <div ><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
+                    {{/each}}
+                </div>
+            </div>
+          </div>
+        </div>
+    </body> 
+</html>
