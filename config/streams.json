@@ -1,14 +1,6 @@
 {
 	"features": [
 		{
-			"name": "KG HBS EPS Home Page",
-			"streamId": "sites-index",
-			"handlebarsTemplateEntityPageSet": {
-				"htmlTemplate": "index",
-				"urlTemplate": "url"
-			}
-		},
-		{
 			"name": "KG HBS EPS Locations",
 			"streamId": "sites-locations",
 			"handlebarsTemplateEntityPageSet": {

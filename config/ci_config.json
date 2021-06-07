@@ -27,7 +27,7 @@
     },
     "buildArtifacts": {
         "build_setup_cmd": "npm install",
-        "build_cmd": "npm run build"
+        "build_cmd": "npm run start"
     },
     "livePreview": {
         "serve_setup_cmd": "echo setup",
