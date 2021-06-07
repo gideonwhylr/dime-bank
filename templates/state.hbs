@@ -1,3 +1,29 @@
+
+---
+{
+    "stream": {
+        "$id": "sites-states",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "fields": [
+        "id",
+        "uid",
+        "name",
+        "c_slug",
+        "c_children.name",
+        "c_children.c_slug"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_state"
+        ]
+      }
+    },
+    "urlFormat": "{{c_slug}}-x.html"
+}
+---
+
+
 <html>
   <head>
     <meta charset="UTF-8" />

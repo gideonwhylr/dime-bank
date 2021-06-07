@@ -1,3 +1,33 @@
+---
+{
+    "stream": {
+        "$id": "sites-cities",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+    "fields": [
+      "id",
+      "uid",
+      "name",
+      "c_slug",
+      "c_children.name",
+      "c_children.c_slug",
+      "c_children.address",
+      "c_children.mainPhone",
+      "c_parents.name",
+      "c_parents.c_slug",
+      "c_parents.id"
+    ],
+    "filter": {
+      "entityTypes": [
+        "ce_city"
+      ]
+     }
+    },
+    "urlFormat": "{{c_slug}}-x.html"
+}
+---
+
+
 <html>
   <head>
     <meta charset="UTF-8" />

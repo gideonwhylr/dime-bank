@@ -1,3 +1,39 @@
+
+---
+{
+    "stream": {
+        "$id": "sites-locations",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+        "fields": [
+            "id",
+            "uid",
+            "name",
+            "address",
+            "description",
+            "mainPhone",
+            "photoGallery",
+            "services",
+            "geomodifier",
+            "hours",
+            "c_slug",
+            "c_parents.name",
+            "c_parents.c_slug",
+            "c_parents.c_parents.name",
+            "c_parents.c_parents.id",
+            "c_parents.c_parents.c_slug"
+        ],
+        "filter": {
+            "entityTypes": [
+            "location"
+            ]
+        }
+    },
+    "urlFormat": "{{c_slug}}-x.html"
+}
+---
+
+
 <html>
   <head>
     <meta charset="UTF-8" />
