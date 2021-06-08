@@ -1,0 +1,47 @@
+  <script>
+    var Yext = Yext || {};
+
+    // By default define a noop function to avoid console errors on module events
+    // (if analytics should be collected, this will be overridden with the proper function)
+    Yext.analyticsEvent = function() {};
+  </script>
+    <script src="https://analytics.yext-static.com/analytics.js"></script>
+    <script>
+      Yext.analyticsEvent = yext.analytics.getYextAnalytics(
+          {
+          'product': 'sites',
+          'businessids': {{global.businessId}},
+          'siteId': {{global.siteId}},
+          'ids': {{uid}},
+         }
+      );
+      Yext.analyticsEvent('pageview');
+      
+      window.addEventListener('load', function() {
+        Array.from(document.querySelectorAll('a')).forEach(function(node) {
+          node.addEventListener('click', function(e) {
+            if (e.target.onclick) {
+              if (e.target.onclick.toString().includes('Yext.analyticsEvent')) {
+                return;
+              }
+            }
+
+            if (e.target.dataset.noPagesAnalytics) {
+              return;
+            }
+
+            let analyticsValue = e.target.dataset.pagesAnalytics;
+            if (!analyticsValue) {
+              const url = e.target.href;
+              if (url && url.substring(0, 4) === 'tel:') {
+                analyticsValue = 'phonecall';
+              } else {
+                analyticsValue = 'calltoactionclick';
+              }
+            }
+            Yext.analyticsEvent(analyticsValue);
+          })
+        });
+      });
+
+    </script>
