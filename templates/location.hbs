@@ -1,3 +1,40 @@
+---
+{
+    "stream": {
+        "$id": "sites-locations-2",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "fields": [
+        "id",
+        "uid",
+        "name",
+        "address",
+        "description",
+        "mainPhone",
+        "photoGallery",
+        "services",
+        "geomodifier",
+        "hours",
+        "slug",
+        "c_parents.name",
+        "c_parents.slug",
+        "c_parents.c_parents.name",
+        "c_parents.c_parents.id",
+        "c_parents.c_parents.slug",
+        "c_branchServices.name",
+        "c_branchServices.richTextDescription",
+        "c_branchServices.c_ctas"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      }
+    },
+    "urlFormat": "{{slug}}-x.html"
+}
+---
+
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -15,10 +52,10 @@
           <li class="px-2 hover:underline hover:font-semibold"><a href="/" class="no-underline text-indigo">Home</a></li>
           <li>/</li>
           {{#each c_parents}}{{#each c_parents}}
-            <li class="px-2 hover:underline hover:font-semibold"><a href="/{{this.c_slug}}" class="no-underline text-indigo">{{this.id}}</a></li>
+            <li class="px-2 hover:underline hover:font-semibold"><a href="/{{this.slug}}" class="no-underline text-indigo">{{this.id}}</a></li>
           {{/each}}{{/each}}
           <li>/</li>
-          <li class="px-2 hover:underline hover:font-semibold"><a href="/{{c_parents.[0].c_slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
+          <li class="px-2 hover:underline hover:font-semibold"><a href="/{{c_parents.[0].slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
           <li>/</li>
           <li class="px-2">{{name}} - {{geomodifier}}</li>
         </ol>
@@ -37,7 +74,7 @@
               </div>
               <p> {{phone}} </p>
               <p> {{#each c_parents}}
-                  <h3 class='hover:underline'><a href="/{{ this.c_slug }}">View Other Locations in {{ this.name }}</a></h3>
+                  <h3 class='hover:underline'><a href="/{{ this.slug }}">View Other Locations in {{ this.name }}</a></h3>
                   {{/each}}
               </p>
             </div>

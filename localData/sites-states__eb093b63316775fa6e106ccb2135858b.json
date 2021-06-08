@@ -1,75 +1,75 @@
 {
     "c_children": [
       {
-        "c_slug": "brooklynNY",
+        "slug": "brooklynNY",
         "name": "Brooklyn"
       },
       {
-        "c_slug": "longIslandCityNY",
+        "slug": "longIslandCityNY",
         "name": "Long Island City"
       },
       {
-        "c_slug": "flushingNY",
+        "slug": "flushingNY",
         "name": "Flushing"
       },
       {
-        "c_slug": "newYorkNY",
+        "slug": "newYorkNY",
         "name": "New York"
       },
       {
-        "c_slug": "baysideNY",
+        "slug": "baysideNY",
         "name": "Bayside"
       },
       {
-        "c_slug": "whitestoneNY",
+        "slug": "whitestoneNY",
         "name": "Whitestone"
       },
       {
-        "c_slug": "portWashingtonNY",
+        "slug": "portWashingtonNY",
         "name": "Port Washington"
       },
       {
-        "c_slug": "westburyNY",
+        "slug": "westburyNY",
         "name": "Westbury"
       },
       {
-        "c_slug": "jacksonHeightsNY",
+        "slug": "jacksonHeightsNY",
         "name": "Jackson Heights"
       },
       {
-        "c_slug": "merrickNY",
+        "slug": "merrickNY",
         "name": "Merrick"
       },
       {
-        "c_slug": "glenOaksNY",
+        "slug": "glenOaksNY",
         "name": "Glen Oaks"
       },
       {
-        "c_slug": "cedarhurstNY",
+        "slug": "cedarhurstNY",
         "name": "Cedarhurst"
       },
       {
-        "c_slug": "newHydeParkNY",
+        "slug": "newHydeParkNY",
         "name": "New Hyde Park"
       },
       {
-        "c_slug": "melvilleNY",
+        "slug": "melvilleNY",
         "name": "Melville"
       },
       {
-        "c_slug": "bellmoreNY",
+        "slug": "bellmoreNY",
         "name": "Bellmore"
       },
       {
-        "c_slug": "redwoodCityCA",
+        "slug": "redwoodCityCA",
         "name": "Redwood City"
       },
       {
-        "c_slug": "valleyStreamNY",
+        "slug": "valleyStreamNY",
         "name": "Valley Stream"
       }
     ],
-    "c_slug": "NY",
+    "slug": "NY",
     "id": "NY",
     "name": "New York",
     "uid": 24130146

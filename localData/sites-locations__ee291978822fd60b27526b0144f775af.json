@@ -57,16 +57,16 @@
       {
         "c_parents": [
           {
-            "c_slug": "NY",
+            "slug": "NY",
             "id": "NY",
             "name": "New York"
           }
         ],
-        "c_slug": "baysideNY",
+        "slug": "baysideNY",
         "name": "Bayside"
       }
     ],
-    "c_slug": "1",
+    "slug": "1",
     "description": "Dime Community Bank has helped New Yorkers achieve their personal and business banking goals for over 155 years. Every day, we deliver smart solutions to our business and retail customers, by providing financial guidance, personal service and honest value. We offer checking to fit your needs or lifestyle, competitive rates on CDs and money market accounts, and anytime, anywhere access through online and mobile banking. For businesses, we provide loans and lines, as well as SBA lending. Stop by any of our convenient 29 branches in Brooklyn, Queens, the Bronx, Nassau and Suffolk counties.",
     "geomodifier": "Bayside",
     "hours": {

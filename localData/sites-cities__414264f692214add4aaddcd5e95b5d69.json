@@ -9,7 +9,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "8",
+        "slug": "8",
         "mainPhone": "+17183365600",
         "name": "Dime Community Bank"
       },
@@ -22,7 +22,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "12",
+        "slug": "12",
         "mainPhone": "+17183367800",
         "name": "Dime Community Bank"
       },
@@ -35,7 +35,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "22",
+        "slug": "22",
         "mainPhone": "+17184924354",
         "name": "Dime Community Bank"
       },
@@ -48,7 +48,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "19",
+        "slug": "19",
         "mainPhone": "+17183830561",
         "name": "Dime Community Bank"
       },
@@ -61,7 +61,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "13",
+        "slug": "13",
         "mainPhone": "+17183316464",
         "name": "Dime Community Bank"
       },
@@ -74,7 +74,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "10",
+        "slug": "10",
         "mainPhone": "+17184351639",
         "name": "Dime Community Bank"
       },
@@ -87,7 +87,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "32",
+        "slug": "32",
         "mainPhone": "+17187794620",
         "name": "Dime Community Bank"
       },
@@ -100,7 +100,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "31",
+        "slug": "31",
         "mainPhone": "+17187826410",
         "name": "Dime Community Bank"
       },
@@ -113,7 +113,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "3",
+        "slug": "3",
         "mainPhone": "+17187826200",
         "name": "Dime Community Bank"
       },
@@ -126,7 +126,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "24",
+        "slug": "24",
         "mainPhone": "+17188551942",
         "name": "Dime Community Bank"
       },
@@ -139,7 +139,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "27",
+        "slug": "27",
         "mainPhone": "+17186800629",
         "name": "Dime Community Bank"
       },
@@ -152,7 +152,7 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "28",
+        "slug": "28",
         "mainPhone": "+17187296070",
         "name": "Dime Community Bank"
       },
@@ -165,19 +165,19 @@
           "region": "NY",
           "sublocality": "Brooklyn"
         },
-        "c_slug": "11",
+        "slug": "11",
         "mainPhone": "+17189341300",
         "name": "Dime Community Bank"
       }
     ],
     "c_parents": [
       {
-        "c_slug": "NY",
+        "slug": "NY",
         "id": "NY",
         "name": "New York"
       }
     ],
-    "c_slug": "brooklynNY",
+    "slug": "brooklynNY",
     "id": "brooklynNY",
     "name": "Brooklyn",
     "uid": 24130139

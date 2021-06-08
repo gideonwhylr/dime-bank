@@ -1,3 +1,27 @@
+---
+{
+    "stream": {
+        "$id": "sites-states-2",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "fields": [
+        "id",
+        "uid",
+        "name",
+        "slug",
+        "c_children.name",
+        "c_children.slug"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_state"
+        ]
+      }
+    },
+    "urlFormat": "{{slug}}-x.html"
+}
+---
+
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -29,7 +53,7 @@
               <h4 class='text-2xl font-bold mb-4'>We have locations in these cities</h4>
                 <div class="h-64 grid grid-rows-6 grid-flow-col gap-7">
                     {{#each c_children}}
-                        <div class='text-green-500 hover:underline hover:text-green-700'><a href="/{{ this.c_slug }}">{{ this.name }}</a></div>
+                        <div class='text-green-500 hover:underline hover:text-green-700'><a href="/{{ this.slug }}">{{ this.name }}</a></div>
                     {{/each}}
                 </div>
             </div>
