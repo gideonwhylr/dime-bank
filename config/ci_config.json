@@ -22,11 +22,15 @@
     },
     "base_image_tag": "node-12.18",
     "dependencies": {
+        "installDepsCmd": "echo install",
+        "requiredFiles": []
     },
     "buildArtifacts": {
         "build_setup_cmd": "echo build_setup_cmd",
         "build_cmd": "echo build_cmd"
     },
     "livePreview": {
+        "serve_setup_cmd": "echo setup",
+        "serve_cmd": "echo serve"
     }
 }
