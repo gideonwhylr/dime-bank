@@ -1,7 +1,7 @@
 ---
 {
     "stream": {
-        "$id": "sites-locations-2",
+        "$id": "sites-locations-locales",
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
@@ -29,6 +29,9 @@
         "entityTypes": [
           "location"
         ]
+      },
+      "localization": {
+        "locales": ["en", "es"]
       }
     },
     "urlFormat": "{{slug}}"
@@ -61,6 +64,7 @@
           <li class="px-2">{{name}} - {{geomodifier}}</li>
         </ol>
       </nav>
+      
         <h1> {{c_sites_custom_1}}</h1>
         <div class='title pt-6 pb-6 border-b-8 border-green-400'> 
           <h1 class='text-5xl  font-extralight text-white ml-6'> {{name}} </h1>
@@ -84,16 +88,39 @@
               <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
               <div class='hours-list'>
                 {{#each hours}}
-                  <p>{{@key}}
-                  {{#each this}}
-                    {{#each this}}
-                      {{this.start}}-{{this.end}}
-                    {{/each}}
-                  {{/each}} 
-                  </p> 
+                    {{#if this.date}}
+                    {{else}}
+                      <p><b>{{@key}}:</b>
+                      {{#each this}}
+                        {{#if isClosed}}
+                          Closed
+                        {{/if}}
+                        {{#each this}}
+                          {{this.start}}-{{this.end}}
+                        {{/each}}
+                      {{/each}} 
+                      </p> 
+                    {{/if}}
                 {{/each}}
               </div>
             </div>
+
+          {{#each hours}}
+            {{#if this.date}}
+            <div class='holiday-hours pr-32'>
+              <h4 class='text-2xl font-bold mb-4' >Upcoming Holiday Hours</h4>
+              <div class='hours-list'>
+                      <p>
+                      {{#each this}}
+                        {{#if isClosed}}
+                          <div>Closed on {{this.date}}</div>
+                        {{/if}}
+                      {{/each}} 
+                      </p> 
+              </div>
+            </div>
+          {{/if}}
+           {{/each}} 
 
             <div class='branch-services pr-32'>
               <h4 class='text-2xl font-bold mb-4'>Services</h4>
