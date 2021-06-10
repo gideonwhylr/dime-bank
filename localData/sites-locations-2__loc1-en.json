@@ -1,0 +1,161 @@
+{
+    "address": {
+      "city": "Bayside",
+      "countryCode": "US",
+      "line1": "61-38 Springfield Boulevard",
+      "postalCode": "11364",
+      "region": "NY",
+      "sublocality": "Queens"
+    },
+    "c_branchServices": [
+      {
+        "c_ctas": [
+          {
+            "icon": "chevron",
+            "text": "Learn More",
+            "url": "https://www.dime.com/business/mobile-banking"
+          }
+        ],
+        "name": "Business Mobile Banking",
+        "richTextDescription": "The ability to manage your finances and accounts right in the palm of your hand. Make running your business more efficient with Dime’s Mobile Business Banking app."
+      },
+      {
+        "c_ctas": [
+          {
+            "icon": "chevron",
+            "text": "Personal Login",
+            "url": "https://dime.onlinebank.com/SignIn.aspx"
+          },
+          {
+            "icon": "chevron",
+            "text": "Business Login",
+            "url": "https://dime.olbanking.com/smallbusiness/auth"
+          }
+        ],
+        "name": "eStatements",
+        "richTextDescription": "You can accept e-statements by logging into your online account, clicking on ____ from the drop-down menu and agreeing to the Agreement. To sign up for eStatements, or if you have a question, please us at 800-321-3464."
+      },
+      {
+        "c_ctas": [
+          {
+            "icon": "chevron"
+          }
+        ],
+        "name": "Insured Cash Sweep (ICS)",
+        "richTextDescription": "Get access to ICS accounts and FDIC insurance with the convenience of Dime"
+      },
+      {
+        "c_ctas": [
+          {
+            "icon": "chevron",
+            "text": "Learn More",
+            "url": "https://www.dime.com/business/municipal-banking-solutions/municipalities"
+          }
+        ],
+        "name": "Municipalities",
+        "richTextDescription": "Dime is a partner committed to the success of your municipality. Our Municipal Banking relationship manager will help you through every phase of your operation, promptly answer your questions and provide fast responses to all of your requests."
+      }
+    ],
+    "c_parents": [
+      {
+        "c_parents": [
+          {
+            "id": "NY",
+            "name": "New York",
+            "slug": "ny"
+          }
+        ],
+        "name": "Bayside",
+        "slug": "baysideny"
+      }
+    ],
+    "description": "Dime Community Bank has helped New Yorkers achieve their personal and business banking goals for over 155 years. Every day, we deliver smart solutions to our business and retail customers, by providing financial guidance, personal service and honest value. We offer checking to fit your needs or lifestyle, competitive rates on CDs and money market accounts, and anytime, anywhere access through online and mobile banking. For businesses, we provide loans and lines, as well as SBA lending. Stop by any of our convenient 29 branches in Brooklyn, Queens, the Bronx, Nassau and Suffolk counties.",
+    "geomodifier": "Bayside",
+    "hours": {
+      "friday": {
+        "openIntervals": [
+          {
+            "end": "13:00",
+            "start": "09:00"
+          },
+          {
+            "end": "17:00",
+            "start": "15:00"
+          }
+        ]
+      },
+      "holidayHours": [
+        {
+          "date": "2021-08-25",
+          "isClosed": true
+        }
+      ],
+      "monday": {
+        "openIntervals": [
+          {
+            "end": "13:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "openIntervals": [
+          {
+            "end": "23:59",
+            "start": "00:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": true
+      },
+      "thursday": {
+        "openIntervals": [
+          {
+            "end": "13:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "openIntervals": [
+          {
+            "end": "13:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "openIntervals": [
+          {
+            "end": "13:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "id": "1",
+    "mainPhone": "+447911123456",
+    "name": "Dime Community Bank",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p/fRjnrCJeuewBGHb0GhBn_xJfs9IlYMoeEXjm7uOUsNA/640x480.jpg"
+        }
+      }
+    ],
+    "services": [
+      "Online Banking",
+      "Safe Deposit Boxes",
+      "eStatements",
+      "Debit Cards",
+      "Telephone Banking",
+      "Check Ordering",
+      "Direct Deposit",
+      "Overdraft Protection",
+      "CDARS/ICS. Lockbox Access",
+      "Remote Deposit Capture."
+    ],
+    "slug": "1-en",
+    "uid": 15836628
+  }
