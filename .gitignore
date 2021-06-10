@@ -3,3 +3,4 @@ localData/
 .artifact-output/
 cli.exe
 formatters/
+public/
