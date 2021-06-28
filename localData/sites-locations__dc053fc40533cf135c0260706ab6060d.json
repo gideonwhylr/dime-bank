@@ -1,0 +1,151 @@
+{
+	"id": "12",
+	"address": {
+		"countryCode": "US",
+		"city": "Brooklyn",
+		"region": "NY",
+		"line1": "1902 Kings Highway",
+		"postalCode": "11229",
+		"sublocality": "Brooklyn"
+	},
+	"description": "Dime Community Bank has helped New Yorkers achieve their personal and business banking goals for over 155 years. Every day, we deliver smart solutions to our business and retail customers, by providing financial guidance, personal service and honest value. We offer checking to fit your needs or lifestyle, competitive rates on CDs and money market accounts, and anytime, anywhere access through online and mobile banking. For businesses, we provide loans and lines, as well as SBA lending. Stop by any of our convenient 29 branches in Brooklyn, Queens, the Bronx, Nassau and Suffolk counties.",
+	"c_parents": [
+		{
+			"name": "Brooklyn",
+			"slug": "brooklynny",
+			"c_parents": [
+				{
+					"id": "NY",
+					"slug": "ny",
+					"name": "New York"
+				}
+			]
+		}
+	],
+	"c_branchServices": [
+		{
+			"name": "Business Mobile Banking",
+			"richTextDescription": "The ability to manage your finances and accounts right in the palm of your hand. Make running your business more efficient with Dime’s Mobile Business Banking app.",
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/mobile-banking"
+				}
+			]
+		},
+		{
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Personal Login",
+					"url": "https://dime.onlinebank.com/SignIn.aspx"
+				},
+				{
+					"url": "https://dime.olbanking.com/smallbusiness/auth",
+					"icon": "chevron",
+					"text": "Business Login"
+				}
+			],
+			"name": "eStatements",
+			"richTextDescription": "You can accept e-statements by logging into your online account, clicking on \"Accounts\" > \"eStatements\" from the drop-down menu and agreeing to the Agreement. To sign up for eStatements, or if you have a question, please us at 800-321-3464."
+		},
+		{
+			"name": "Insured Cash Sweep (ICS)",
+			"richTextDescription": "Get access to ICS accounts and FDIC insurance with the convenience of Dime",
+			"c_ctas": [
+				{
+					"icon": "chevron"
+				}
+			]
+		},
+		{
+			"name": "Municipalities",
+			"richTextDescription": "Dime is a partner committed to the success of your municipality. Our Municipal Banking relationship manager will help you through every phase of your operation, promptly answer your questions and provide fast responses to all of your requests.",
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/municipal-banking-solutions/municipalities"
+				}
+			]
+		}
+	],
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "15:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "15:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "14:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "15:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "15:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "15:00",
+					"start": "09:00"
+				}
+			]
+		}
+	},
+	"slug": "dimecommunitybank/1902kingshighway",
+	"uid": 15836611,
+	"name": "Dime Community Bank",
+	"mainPhone": "+17183367800",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/rVe0Yh8atQFqEboWWfK6to47QSYxeXpTkRu-ZdN0j1w/640x480.jpg"
+			}
+		}
+	],
+	"services": [
+		"Online Banking",
+		"Safe Deposit Boxes",
+		"eStatements",
+		"Debit Cards",
+		"Telephone Banking",
+		"Check Ordering",
+		"Direct Deposit",
+		"Overdraft Protection",
+		"CDARS/ICS. Lockbox Access",
+		"Remote Deposit Capture."
+	],
+	"geomodifier": "Kings Highway"
+}

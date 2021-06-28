@@ -1,0 +1,151 @@
+{
+	"id": "17",
+	"address": {
+		"countryCode": "US",
+		"city": "Long Island City",
+		"region": "NY",
+		"line1": "45-14 46th Street",
+		"postalCode": "11104",
+		"sublocality": "Queens"
+	},
+	"description": "Dime Community Bank has helped New Yorkers achieve their personal and business banking goals for over 155 years. Every day, we deliver smart solutions to our business and retail customers, by providing financial guidance, personal service and honest value. We offer checking to fit your needs or lifestyle, competitive rates on CDs and money market accounts, and anytime, anywhere access through online and mobile banking. For businesses, we provide loans and lines, as well as SBA lending. Stop by any of our convenient 29 branches in Brooklyn, Queens, the Bronx, Nassau and Suffolk counties.",
+	"c_parents": [
+		{
+			"name": "Long Island City",
+			"slug": "longislandcityny",
+			"c_parents": [
+				{
+					"slug": "ny",
+					"name": "New York",
+					"id": "NY"
+				}
+			]
+		}
+	],
+	"c_branchServices": [
+		{
+			"name": "Business Mobile Banking",
+			"richTextDescription": "The ability to manage your finances and accounts right in the palm of your hand. Make running your business more efficient with Dime’s Mobile Business Banking app.",
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/mobile-banking"
+				}
+			]
+		},
+		{
+			"name": "eStatements",
+			"richTextDescription": "You can accept e-statements by logging into your online account, clicking on \"Accounts\" > \"eStatements\" from the drop-down menu and agreeing to the Agreement. To sign up for eStatements, or if you have a question, please us at 800-321-3464.",
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Personal Login",
+					"url": "https://dime.onlinebank.com/SignIn.aspx"
+				},
+				{
+					"icon": "chevron",
+					"text": "Business Login",
+					"url": "https://dime.olbanking.com/smallbusiness/auth"
+				}
+			]
+		},
+		{
+			"name": "Insured Cash Sweep (ICS)",
+			"richTextDescription": "Get access to ICS accounts and FDIC insurance with the convenience of Dime",
+			"c_ctas": [
+				{
+					"icon": "chevron"
+				}
+			]
+		},
+		{
+			"c_ctas": [
+				{
+					"url": "https://www.dime.com/business/municipal-banking-solutions/municipalities",
+					"icon": "chevron",
+					"text": "Learn More"
+				}
+			],
+			"name": "Municipalities",
+			"richTextDescription": "Dime is a partner committed to the success of your municipality. Our Municipal Banking relationship manager will help you through every phase of your operation, promptly answer your questions and provide fast responses to all of your requests."
+		}
+	],
+	"slug": "dimecommunitybank/45-1446thstreet",
+	"uid": 15836612,
+	"name": "Dime Community Bank",
+	"mainPhone": "+17187294600",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/bjr7nGtfNvWoXOGVzw7QMCplTdrP0f8f822bBPhbTEg/640x480.jpg"
+			}
+		}
+	],
+	"services": [
+		"Online Banking",
+		"Safe Deposit Boxes",
+		"eStatements",
+		"Debit Cards",
+		"Telephone Banking",
+		"Check Ordering",
+		"Direct Deposit",
+		"Overdraft Protection",
+		"CDARS/ICS. Lockbox Access",
+		"Remote Deposit Capture."
+	],
+	"geomodifier": "Long Island City",
+	"hours": {
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"monday": {
+			"openIntervals": [
+				{
+					"start": "09:00",
+					"end": "13:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		}
+	}
+}

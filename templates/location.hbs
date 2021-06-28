@@ -1,7 +1,7 @@
 ---
 {
     "stream": {
-        "$id": "sites-locations-2",
+        "$id": "locations",
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
@@ -39,7 +39,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{name}} - {{geomodifier}} </title>
+    <title>{{name}} - {{address.line1}} </title>
     {{>head}}
     {{>analytics}}
   </head>
@@ -58,14 +58,14 @@
           <li>/</li>
           <li class="px-2 hover:underline hover:font-semibold"><a href="/{{c_parents.[0].slug}}" class="no-underline text-indigo">{{c_parents.[0].name}}</a></li>
           <li>/</li>
-          <li class="px-2">{{name}} - {{geomodifier}}</li>
+          <li class="px-2">{{name}} - {{address.line1}}</li>
         </ol>
       </nav>
       
         <div class='title pt-6 pb-6 border-b-8 border-green-400'> 
-          <h1 class='text-5xl  font-extralight text-white ml-6'> {{name}} </h1>
+          <h1 class='text-5xl  font-extralight text-black ml-6'> {{name}} </h1>
         </div>
-        
+
         <div class="container mx-auto px-32">
           <div class='mt-6  flex'> 
             <div class='branch-details pr-32'>
@@ -73,17 +73,21 @@
               <div> 
                 <p> {{address.line1}} </p>
                 <p> {{address.city}}, {{address.region}} {{address.postalCode}}</p>
+                <p> {{address.countryCode}}</p>
               </div>
-              <p> {{phone}} </p>
-              <p> {{#each c_parents}}
-                  <h3 class='hover:underline'><a href="/{{ this.slug }}">View Other Locations in {{ this.name }}</a></h3>
-                  {{/each}}
-              </p>
+              <div>
+                <p>{{mainPhone}}</p>
+                {{!-- PRETTY PRINT PHONE NUMBER --}}
+                {{!-- <p>{{phoneNumber mainPhone "US" "NATIONAL"}}</p> --}}
+              </div>
+              
             </div>
-                <h1> hello guys </h1>
+
             <div class='branch-hours pr-32'>
               <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
               <div class='hours-list'>
+                {{!-- Format hours array --}}
+                {{!-- {{#each (formatHours hours "en_US") }} --}}
                 {{#each hours}}
                     {{#if this.date}}
                     {{else}}
@@ -102,6 +106,8 @@
               </div>
             </div>
 
+          {{!-- Format hours array --}}
+          {{!-- {{#each (formatHours hours "en_US") }} --}}
           {{#each hours}}
             {{#if this.date}}
             <div class='holiday-hours pr-32'>
@@ -122,6 +128,8 @@
             <div class='branch-services pr-32'>
               <h4 class='text-2xl font-bold mb-4'>Services</h4>
               <ul class="branch-services-list list-disc">
+                {{!-- Sort services array --}}
+                {{!-- {{#each (sortList services) }} --}}
                 {{#each services}}
                   <li>{{this}}</li>
                 {{/each}}

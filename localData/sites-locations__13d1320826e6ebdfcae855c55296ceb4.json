@@ -1,0 +1,150 @@
+{
+	"uid": 15836613,
+	"name": "Dime Community Bank",
+	"mainPhone": "+17184924354",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/qsh94QVjhlQBVLvMW5TmkeHHP_Mtu2biYdN9jTa0WZg/640x480.jpg"
+			}
+		}
+	],
+	"services": [
+		"Online Banking",
+		"Safe Deposit Boxes",
+		"eStatements",
+		"Debit Cards",
+		"Telephone Banking",
+		"Check Ordering",
+		"Direct Deposit",
+		"Overdraft Protection",
+		"CDARS/ICS. Lockbox Access",
+		"Remote Deposit Capture."
+	],
+	"hours": {
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		}
+	},
+	"slug": "dimecommunitybank/75243rdavenue",
+	"id": "22",
+	"address": {
+		"region": "NY",
+		"countryCode": "US",
+		"city": "Brooklyn",
+		"line1": "7524 3rd Avenue",
+		"postalCode": "11209",
+		"sublocality": "Brooklyn"
+	},
+	"description": "Please visit our 86th Street Location. The branch is located at 8520 4th Avenue, Brooklyn.",
+	"c_parents": [
+		{
+			"name": "Brooklyn",
+			"slug": "brooklynny",
+			"c_parents": [
+				{
+					"name": "New York",
+					"id": "NY",
+					"slug": "ny"
+				}
+			]
+		}
+	],
+	"c_branchServices": [
+		{
+			"name": "Business Mobile Banking",
+			"richTextDescription": "The ability to manage your finances and accounts right in the palm of your hand. Make running your business more efficient with Dime’s Mobile Business Banking app.",
+			"c_ctas": [
+				{
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/mobile-banking",
+					"icon": "chevron"
+				}
+			]
+		},
+		{
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Personal Login",
+					"url": "https://dime.onlinebank.com/SignIn.aspx"
+				},
+				{
+					"icon": "chevron",
+					"text": "Business Login",
+					"url": "https://dime.olbanking.com/smallbusiness/auth"
+				}
+			],
+			"name": "eStatements",
+			"richTextDescription": "You can accept e-statements by logging into your online account, clicking on \"Accounts\" > \"eStatements\" from the drop-down menu and agreeing to the Agreement. To sign up for eStatements, or if you have a question, please us at 800-321-3464."
+		},
+		{
+			"richTextDescription": "Get access to ICS accounts and FDIC insurance with the convenience of Dime",
+			"c_ctas": [
+				{
+					"icon": "chevron"
+				}
+			],
+			"name": "Insured Cash Sweep (ICS)"
+		},
+		{
+			"c_ctas": [
+				{
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/municipal-banking-solutions/municipalities",
+					"icon": "chevron"
+				}
+			],
+			"name": "Municipalities",
+			"richTextDescription": "Dime is a partner committed to the success of your municipality. Our Municipal Banking relationship manager will help you through every phase of your operation, promptly answer your questions and provide fast responses to all of your requests."
+		}
+	]
+}

@@ -1,0 +1,151 @@
+{
+	"id": "25",
+	"address": {
+		"postalCode": "11516",
+		"sublocality": "Nassau",
+		"line1": "432 Central Avenue",
+		"city": "Cedarhurst",
+		"region": "NY",
+		"countryCode": "US"
+	},
+	"description": "Dime Community Bank has helped New Yorkers achieve their personal and business banking goals for over 155 years. Every day, we deliver smart solutions to our business and retail customers, by providing financial guidance, personal service and honest value. We offer checking to fit your needs or lifestyle, competitive rates on CDs and money market accounts, and anytime, anywhere access through online and mobile banking. For businesses, we provide loans and lines, as well as SBA lending. Stop by any of our convenient 29 branches in Brooklyn, Queens, the Bronx, Nassau and Suffolk counties.",
+	"c_parents": [
+		{
+			"name": "Cedarhurst",
+			"slug": "cedarhurstny",
+			"c_parents": [
+				{
+					"slug": "ny",
+					"name": "New York",
+					"id": "NY"
+				}
+			]
+		}
+	],
+	"c_branchServices": [
+		{
+			"richTextDescription": "The ability to manage your finances and accounts right in the palm of your hand. Make running your business more efficient with Dime’s Mobile Business Banking app.",
+			"c_ctas": [
+				{
+					"icon": "chevron",
+					"text": "Learn More",
+					"url": "https://www.dime.com/business/mobile-banking"
+				}
+			],
+			"name": "Business Mobile Banking"
+		},
+		{
+			"name": "eStatements",
+			"richTextDescription": "You can accept e-statements by logging into your online account, clicking on \"Accounts\" > \"eStatements\" from the drop-down menu and agreeing to the Agreement. To sign up for eStatements, or if you have a question, please us at 800-321-3464.",
+			"c_ctas": [
+				{
+					"text": "Personal Login",
+					"url": "https://dime.onlinebank.com/SignIn.aspx",
+					"icon": "chevron"
+				},
+				{
+					"icon": "chevron",
+					"text": "Business Login",
+					"url": "https://dime.olbanking.com/smallbusiness/auth"
+				}
+			]
+		},
+		{
+			"name": "Insured Cash Sweep (ICS)",
+			"richTextDescription": "Get access to ICS accounts and FDIC insurance with the convenience of Dime",
+			"c_ctas": [
+				{
+					"icon": "chevron"
+				}
+			]
+		},
+		{
+			"name": "Municipalities",
+			"richTextDescription": "Dime is a partner committed to the success of your municipality. Our Municipal Banking relationship manager will help you through every phase of your operation, promptly answer your questions and provide fast responses to all of your requests.",
+			"c_ctas": [
+				{
+					"url": "https://www.dime.com/business/municipal-banking-solutions/municipalities",
+					"icon": "chevron",
+					"text": "Learn More"
+				}
+			]
+		}
+	],
+	"slug": "dimecommunitybank/432centralavenue",
+	"uid": 15836615,
+	"name": "Dime Community Bank",
+	"mainPhone": "+15165691064",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/5_IQZXLIrJIZL4eULvK4lrnQae3ncFTV90m9JbMy_rU/640x480.jpg"
+			}
+		}
+	],
+	"services": [
+		"Online Banking",
+		"Safe Deposit Boxes",
+		"eStatements",
+		"Debit Cards",
+		"Telephone Banking",
+		"Check Ordering",
+		"Direct Deposit",
+		"Overdraft Protection",
+		"CDARS/ICS. Lockbox Access",
+		"Remote Deposit Capture."
+	],
+	"geomodifier": "Cedarhurst",
+	"hours": {
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": true
+		},
+		"sunday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "13:00",
+					"start": "09:00"
+				}
+			]
+		}
+	}
+}

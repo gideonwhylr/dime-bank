@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dime Community Bank - 45-14 46th Street </title>
+    <script src="/index.bundle.js"></script>      <script>
+    var Yext = Yext || {};
+
+    // By default define a noop function to avoid console errors on module events
+    // (if analytics should be collected, this will be overridden with the proper function)
+    Yext.analyticsEvent = function() {};
+  </script>
+    <script src="https://analytics.yext-static.com/analytics.js"></script>
+    <script>
+      Yext.analyticsEvent = yext.analytics.getYextAnalytics(
+          {
+          'product': 'sites',
+          'businessids': 3179813,
+          'siteId': 20003,
+          'ids': 15836612,
+         }
+      );
+      Yext.analyticsEvent('pageview');
+      
+      window.addEventListener('load', function() {
+        Array.from(document.querySelectorAll('a')).forEach(function(node) {
+          node.addEventListener('click', function(e) {
+            if (e.target.onclick) {
+              if (e.target.onclick.toString().includes('Yext.analyticsEvent')) {
+                return;
+              }
+            }
+
+            if (e.target.dataset.noPagesAnalytics) {
+              return;
+            }
+
+            let analyticsValue = e.target.dataset.pagesAnalytics;
+            if (!analyticsValue) {
+              const url = e.target.href;
+              if (url && url.substring(0, 4) === 'tel:') {
+                analyticsValue = 'phonecall';
+              } else {
+                analyticsValue = 'calltoactionclick';
+              }
+            }
+            Yext.analyticsEvent(analyticsValue);
+          })
+        });
+      });
+
+    </script>
+
+  </head>
+    <body>
+        
+
+      <div class= "header">
+        <div class=" mx-auto  p-5">
+                <nav class="flex justify-between">
+                    <div class='flex'>
+                      <div class="pr-5">
+                        <a href="#"><img class='object-contain h-20' src='https://a.mktgcdn.com/p/eEScuRbWJ_wg43YUVTraB3vfeDDbSEZC2aFGjwBLG7w/316x316.png'></a>
+                      </div>
+                      <ul class="flex flex-row text-xl font-bold text-blue-900 ">
+                            <li class="mt-10 pr-12 hover:underline"><a href="https://www.dime.com/business">Business</a></li>
+                            <li class="mt-10 pr-12 hover:underline"><a href="https://www.dime.com/commercial">Commercial</a></li>
+                            <li class="mt-10 pr-12 hover:underline"><a href="https://www.dime.com/wealth-management">Wealth Management</a></li>
+                            <li class="mt-10 pr-12 hover:underline"><a href="https://www.dime.com/personal">Personal</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div class="float-right">
+                        <button class='bg-blue-900 rounded-md text-white px-8 py-2 mt-8 '>
+                          <a href="https://www.dime.com/#signin">Sign In</a>
+                        </button>
+                      </div>
+                    </div>
+                </nav>
+          </div>
+      </div>
+      <nav class="breadcrumb-container bg-gray-50">
+        <ol class="list-reset py-4 pl-4 rounded flex  text-grey">
+          <li class="px-2 hover:underline hover:font-semibold"><a href="/" class="no-underline text-indigo">Home</a></li>
+          <li>/</li>
+          
+            <li class="px-2 hover:underline hover:font-semibold"><a href="/ny" class="no-underline text-indigo">NY</a></li>
+          
+          <li>/</li>
+          <li class="px-2 hover:underline hover:font-semibold"><a href="/longislandcityny" class="no-underline text-indigo">Long Island City</a></li>
+          <li>/</li>
+          <li class="px-2">Dime Community Bank - 45-14 46th Street</li>
+        </ol>
+      </nav>
+      
+        <div class='title pt-6 pb-6 border-b-8 border-green-400'> 
+          <h1 class='text-5xl  font-extralight text-black ml-6'> Dime Community Bank </h1>
+        </div>
+
+        <div class="container mx-auto px-32">
+          <div class='mt-6  flex'> 
+            <div class='branch-details pr-32'>
+              <h4 class='text-2xl font-bold mb-4'>Branch Details</h4>
+              <div> 
+                <p> 45-14 46th Street </p>
+                <p> Long Island City, NY 11104</p>
+                <p> US</p>
+              </div>
+              <div>
+                <p>+17187294600</p>
+                
+              </div>
+              
+            </div>
+
+            <div class='branch-hours pr-32'>
+              <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
+              <div class='hours-list'>
+                
+                      <p><b>sunday:</b>
+                          Closed
+                                               
+                      </p> 
+                                      <p><b>tuesday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                                      <p><b>friday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                                      <p><b>wednesday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                                      <p><b>thursday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                                      <p><b>monday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                                      <p><b>saturday:</b>
+                        
+                          09:00-13:00
+                       
+                      </p> 
+                
+              </div>
+            </div>
+
+          
+                                                                              
+
+            <div class='branch-services pr-32'>
+              <h4 class='text-2xl font-bold mb-4'>Services</h4>
+              <ul class="branch-services-list list-disc">
+                
+                  <li>Online Banking</li>
+                  <li>Safe Deposit Boxes</li>
+                  <li>eStatements</li>
+                  <li>Debit Cards</li>
+                  <li>Telephone Banking</li>
+                  <li>Check Ordering</li>
+                  <li>Direct Deposit</li>
+                  <li>Overdraft Protection</li>
+                  <li>CDARS/ICS. Lockbox Access</li>
+                  <li>Remote Deposit Capture.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-container mx-auto px-32 bg-yellow-50 p-10 m-10">
+          <div class="grid grid-rows-1 grid-flow-col gap-4">
+            <div class="row-span-3 ">
+                <h4 class='text-3xl font-bold mb-4'>Branch Services</h4>
+                <div>At this location, we specialize in these banking services</div>
+            </div>
+            <div class="col-span-1">
+              <div class="grid grid-cols-2 gap-4">
+                <div class="text-indigo hover:font-semibold">
+                    <img src="/beacon-check.png"><a href="https://www.dime.com/business/mobile-banking">Business Mobile Banking</a>
+                </div>
+                <div class="text-indigo hover:font-semibold">
+                    <img src="/beacon-check.png"><a href="https://dime.onlinebank.com/SignIn.aspx">eStatements</a>
+                </div>
+                <div class="text-indigo hover:font-semibold">
+                    <img src="/beacon-check.png"><a href="">Insured Cash Sweep (ICS)</a>
+                </div>
+                <div class="text-indigo hover:font-semibold">
+                    <img src="/beacon-check.png"><a href="https://www.dime.com/business/municipal-banking-solutions/municipalities">Municipalities</a>
+                </div>
+             </div>
+            </div>
+          </div>
+      </div>
+
+
+    </body> 
+        <div class="footer">
+          <footer id="footer" class="relative z-50 dark:bg-gray-900">
+              <div class="border-t border-b border-gray-200 dark:border-gray-700 py-16">
+                  <div class="mx-auto container px-4 xl:px-12 2xl:px-4">
+                      <div class="lg:flex">
+                          <div class="w-full lg:w-1/2 mb-16 lg:mb-0 flex">
+                              <div class="w-full lg:w-1/2 px-6">
+                                  <ul class="footer-list text-l font-bold">
+                                      <li class='hover:underline'><a href="#">Business Banking</a></li>
+                                      <li class="mt-6 hover:underline"><a href="#">Commercial Banking</a></li>
+                                      <li class="mt-6 hover:underline"><a href="#">Personal Banking</a></li>
+                                  </ul>
+                              </div>
+                              <div class="w-full lg:w-1/2 px-6">
+                                  <ul class="footer-list text-l">
+                                      <li class='hover:underline'><a href="#">Investor Relations</a></li>
+                                      <li class="mt-6 hover:underline"><a href="#">Contact Us</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="w-full lg:w-1/2 flex">
+                              <div class="w-full lg:w-1/2 px-6">
+                                  <ul class="footer-list text-l">
+                                      <li class='hover:underline'><a href="#">Careers</a></li>
+                                      <li class="mt-6 hover:underline"><a href="#">Find a Branch</a></li>
+                                  </ul>
+                              </div>
+                          <div class="w-full lg:w-1/2 flex">
+                              <div class="w-full lg:w-1/2 px-6">
+                                  <ul class="footer-list text-l">
+                                      <li class='hover:underline'>Routing Number</li>
+                                      <li class="mt-6 hover:underline"><a href="#">021406667</a></li>
+                                  </ul>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="py-16 flex flex-col justify-center items-center">
+                        <a href="#"><img class='object-contain h-20' src='https://a.mktgcdn.com/p/eEScuRbWJ_wg43YUVTraB3vfeDDbSEZC2aFGjwBLG7w/316x316.png'></a>
+                  <p class="mt-6 text-s">2021 Gideon Frontend SMEs LLC. All Rights Reserved.</p>
+              </div>
+          </footer>
+      </div></html>
