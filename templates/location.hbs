@@ -15,6 +15,7 @@
         "services",
         "geomodifier",
         "hours",
+        "videos",
         "slug",
         "c_parents.name",
         "c_parents.slug",
@@ -80,7 +81,7 @@
                   {{/each}}
               </p>
             </div>
-                <h1> hello guys </h1>
+
             <div class='branch-hours pr-32'>
               <h4 class='text-2xl font-bold mb-4' >Branch Hours</h4>
               <div class='hours-list'>
@@ -147,6 +148,14 @@
             </div>
           </div>
       </div>
+
+    <div class="container mx-auto px-32 pb-10">
+      <div class="aspect-w-16 aspect-h-9">
+        {{#each videos}}
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ybQgC2FsZa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {{/each}}
+      </div>
+    </div>
 
 
     </body> 
